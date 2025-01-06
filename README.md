@@ -40,4 +40,6 @@ This project uses two ESP32-DevKitC boards and SSD1306 OLED displays to send and
 - [Adafruit BusIO](https://github.com/adafruit/Adafruit_BusIO)
 - [Adafruit_GFX](https://github.com/adafruit/Adafruit-GFX-Library)
 - [Adafruit_SSD1306](https://github.com/adafruit/Adafruit_SSD1306)
+- [ESP32 Webserver](https://github.com/espressif/arduino-esp32/tree/master/libraries/WebServer)
+- [ESP32 Wifi](https://github.com/espressif/arduino-esp32/tree/master/libraries/WiFi)
 - [U8g2](https://github.com/olikraus/u8g2)
