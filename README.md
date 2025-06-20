@@ -7,9 +7,13 @@ This project uses two ESP32-DevKitC boards and SSD1306 OLED displays to send and
 The two ESP32s are currently capable of simple one way communication over the same Wi-Fi network, with one device acting as a soft access point and HTTP server and the other acting as a station.  
 
 ## To Do
-* set up MQTT broker
-* test typed input
-* test two way messaging
+* set up MQTT IoT core
+* connect to AWS endpoint
+  * test esp32A publishing
+  * test esp32B publishing
+  * subscribe esp32A to esp32B's publish
+* test typed input on different PCs
+* test two way messaging over two different networks
 
 ## Hardware
 
@@ -51,3 +55,4 @@ The two ESP32s are currently capable of simple one way communication over the sa
 - [ESP32 Webserver](https://github.com/espressif/arduino-esp32/tree/master/libraries/WebServer)
 - [ESP32 Wifi](https://github.com/espressif/arduino-esp32/tree/master/libraries/WiFi)
 - [U8g2](https://github.com/olikraus/u8g2)
+- [PubSubClient](https://github.com/knolleary/pubsubclient)
