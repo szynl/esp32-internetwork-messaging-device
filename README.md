@@ -1,7 +1,15 @@
 # esp32-internetwork-messaging-device
 
 ## Objective
-This project uses two ESP32-DevKitC boards and SSD1306 OLED displays to send and display messages across separate Wi-Fi networks. The displays show the received messages in real-time using I2C communication.
+This project uses two ESP32-DevKitC boards and SSD1306 OLED displays to send and display messages across separate Wi-Fi networks. The displays show the received messages in real-time.
+
+## Current Progress
+The two ESP32s are currently capable of simple one way communication over the same Wi-Fi network, with one device acting as a soft access point and HTTP server and the other acting as a station.  
+
+## To Do
+* set up MQTT broker
+* test typed input
+* test two way messaging
 
 ## Hardware
 
