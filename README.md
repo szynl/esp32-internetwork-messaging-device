@@ -4,16 +4,15 @@
 This project uses two ESP32-DevKitC boards and SSD1306 OLED displays to send and display messages across separate Wi-Fi networks. The displays show the received messages in real-time.
 
 ## Current Progress
-The two ESP32s are currently capable of simple one way communication over the same Wi-Fi network, with one device acting as a soft access point and HTTP server and the other acting as a station.  
+* one way communication over the same Wi-Fi network
+  * one ESP32 acts as a soft access point and HTTP server
+  * one ESP32 connects as a Wi-Fi station
+* two way communication over AWS IoT Core MQTT broker over same Wi-Fi network 
 
 ## To Do
-* set up MQTT IoT core
-* connect to AWS endpoint
-  * test esp32A publishing
-  * test esp32B publishing
-  * subscribe esp32A to esp32B's publish
-* test typed input on different PCs
-* test two way messaging over two different networks
+* test typed input over same and different Wi-Fi networks
+* design custom keyboard/input hardware
+* connect SSD1306 OLED screens to display sent and received messages
 
 ## Hardware
 
