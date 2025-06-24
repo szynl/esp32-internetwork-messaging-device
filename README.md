@@ -7,12 +7,12 @@ This project uses two ESP32-DevKitC boards and SSD1306 OLED displays to send and
 * one way communication over the same Wi-Fi network
   * one ESP32 acts as a soft access point and HTTP server
   * one ESP32 connects as a Wi-Fi station
-* two way communication over AWS IoT Core MQTT broker over same Wi-Fi network 
+* two way communication over AWS IoT Core MQTT broker over same Wi-Fi network
+* incoming and outgoing messages are displayed on SSD1306 OLED screens (locally tested)
 
 ## To Do
-* test typed input over same and different Wi-Fi networks
+* test functionality over different Wi-Fi networks
 * design custom keyboard/input hardware
-* connect SSD1306 OLED screens to display sent and received messages
 
 ## Hardware
 
